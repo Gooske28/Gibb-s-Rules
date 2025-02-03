@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MijnLettertype';
+    src: url('/MijnFont.ttf') format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Pas het lettertype toe op de hele pagina */
+body {
+    font-family: 'MijnLettertype', sans-serif;
+}
