@@ -12,11 +12,11 @@ body {
 
 /* Stel de lettergrootte in voor div-elementen */
 div {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* Pas de stijl van h1 aan */
 h1 {
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
 }
