@@ -10,3 +10,13 @@ body {
     font-family: 'MijnLettertype', sans-serif;
 }
 
+/* Stel de lettergrootte in voor div-elementen */
+div {
+    font-size: 20px;
+}
+
+/* Pas de stijl van h1 aan */
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
