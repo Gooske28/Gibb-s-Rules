@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MijnLettertype';
-    src: url('fonts/MijnFont.ttf') format('truetype');
+    src: url('MijnFont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
