@@ -20,3 +20,36 @@ h1 {
     font-size: 60px;
     text-align: center;
 }
+
+/* Stijl cookiemelding */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie-banner p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.cookie-banner a {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.cookie-banner button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
