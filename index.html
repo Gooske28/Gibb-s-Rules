@@ -66,6 +66,30 @@
         Rule #45: Clean up your own messes<br>
         Rule #51: Sometimes, you're wrong.<br>
     </div>
-    
+
+     <!-- Cookie banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Deze website gebruikt cookies om de beste ervaring te bieden. <a href="#">Meer info</a></p>
+        <button id="accept-cookies">Akkoord</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let cookieBanner = document.getElementById("cookie-banner");
+            let acceptButton = document.getElementById("accept-cookies");
+
+            // Check of cookies al geaccepteerd zijn
+            if (localStorage.getItem("cookiesAccepted")) {
+                cookieBanner.style.display = "none";
+            }
+
+            // Klik op de knop -> opslaan in localStorage en verbergen
+            acceptButton.addEventListener("click", function () {
+                localStorage.setItem("cookiesAccepted", "true");
+                cookieBanner.style.display = "none";
+            });
+        });
+    </script>
+
 </body>
 </html>
